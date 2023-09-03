@@ -1,7 +1,14 @@
 import './index.scss';
 import {Link} from 'react-router-dom'
+import Modal from '../../Componets/modal/modal.js'
+import { useState } from 'react';
 
 export default function Veiculo() {
+  const [open,  setOpen] = useState (false);
+  
+  
+
+  
   return (
     <div className="pagina-veiculo">
       
@@ -49,6 +56,17 @@ export default function Veiculo() {
       <div id='container'>
         <header>
           <p>Olá, Que bom que você voltou!</p>
+          <div>
+            <button onClick={() => setOpen(true)} >
+              <picture>
+                <source media="(max-width: 580px)" srcset="../assets/image/menu.png" type="image/jpg"/>
+                <img src="../assets/image/usuario.png" alt=""/>
+              </picture>
+            </button>
+          </div>
+          <Modal isOpen = {open}
+          setOpen = {setOpen}/>
+          
         </header>
 
         <div id='enunciado'>
