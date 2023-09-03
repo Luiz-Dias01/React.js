@@ -84,7 +84,7 @@
     color: #A79F9F;
   }
 
-  header button {
+  header > div button {
     background-color: white;
     border: none;
     display: none;
@@ -420,7 +420,6 @@
 
 
     main {
-      background-color: #7A14C0;
       margin-top: 10px;
       width: 100%;
       min-width: 580px;
@@ -510,7 +509,7 @@
       font-size: 40px;
     }
 
-    header button {
+    header > div button {
       display: unset;
     }
 

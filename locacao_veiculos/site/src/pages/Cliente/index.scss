@@ -84,9 +84,10 @@
     color: #A79F9F;
   }
 
-  header button {
+  header > div button {
     background-color: white;
     border: none;
+    display: none;
 
   }
 
@@ -468,7 +469,6 @@
     }
 
     table {
-      background-color: #616161;
       font-size: 20px;
       width: 9vw;
       min-width: 750px;
@@ -482,6 +482,10 @@
 
     #enunciado h1{
       font-size: 40px;
+    }
+
+    header > div button {
+      display: unset;
     }
 
     #inserir {
@@ -522,7 +526,6 @@
     }
 
     .caixa-consulta {
-      background-color: #835858;
       width: 75vw;
     }
   }
