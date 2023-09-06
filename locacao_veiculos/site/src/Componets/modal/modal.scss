@@ -1,43 +1,43 @@
 dialog {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    padding: 0px;
-    width: 32vh;
-    height: -20vw;
-    
-    top: 60px;
-    bottom: 0px;
-    right: -10px;
-    left: 648px;
+        background-color: #8837C7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        width: 50vw;
+        height: 100vh;
+        
+        top: 125px;
+        bottom: 0px;
+        right: -10px;
+        left: 630px;
 
     #men {
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
     
 
     
-    #men .menu-div {
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: none;
-    cursor: pointer;
-    padding: 15px;
-    width: 100%;
+    #men .men-div {
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: none;
+        cursor: pointer;
+        padding: 15px;
+        width: 100%;
     }
 
-    #men .menu-div:hover {
-    background-color: #8837C7;
+    #men .men-div:hover {
+        background-color: #8837C7;
     }
 
     form {

@@ -91,6 +91,10 @@
 
   }
 
+  #p2 {
+    display: none;
+  }
+
   #enunciado {
     display: flex;
     flex-direction: column;
@@ -283,7 +287,7 @@
     }
 
     header {
-      width: 100%;
+      width: 105%;
     }
 
     main {
@@ -476,28 +480,89 @@
   }
 
   @media (max-width: 580px) {
+    
+
     #menu {
       display: none;
+    }
+
+    #enunciado {
+      margin-bottom: 20px;
+      height: 30vh;
     }
 
     #enunciado h1{
       font-size: 40px;
     }
 
+    header {
+
+      height: 20vh;
+      width: 100%;
+    }
+
+    header img{
+      height: 50px;
+      width: 50px;
+    }
+
+    header p {
+      display: none;
+    }
+
     header > div button {
       display: unset;
     }
 
-    #inserir {
-      width: 80vw;
+    #p2 {
+      text-align: end;
+      display: unset;
+      width: 120vw;
+      max-width: 550px;
+      min-width: 550px;
     }
 
-    #enunciado-inserir {
-      font-size: 36px;
+    #p2 p {
+      font-size: 2.5em;
+      display: unset;
+      width: 25vw;
+    }
+
+    #p2 span {
+      color: #FF7101;
+    }
+
+    
+
+    main {
+      height: 100%;
+    }
+
+    #inserir {
+      width: 90vw;
+      min-width: 850px;
+    }
+
+    form {
+      margin-bottom: 10px;
+    }
+
+    #enunciado-inserir h2{
+
+      font-size: 1em;
     }
 
     .caixa-inserir {
-      width: 75vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      height: 15vh;
+      width: 125vw;
+      max-width: 750px;
+      min-width: 750px;
+
     }
 
     label {
@@ -505,28 +570,57 @@
     }
 
     input {
-      width: 70vw;
+      font-size: 32px;
+      width: 100vw;
     }
 
-    #btn-salvar {
-      width: 30vw;
-    }
+    
 
     #btn-salvar button {
-      width: 30vw;
-      padding: 10px;
+      font-size: 25px;
+      padding: 20px;
+      width: 50vw;
+      min-width: 280px;
+    }
+
+    #consulta {
+      width: 90vw;
+      min-width: 850px;
     }
 
     #consulta > div {
-      width: 77vw;
+      width: 132vw;
     }
 
     #enunciado-consulta {
-      width: 75.6vw;
+      width: 131vw;
+    }
+    #enunciado-consulta h2 {
+      font-size: 2.2em;
     }
 
     .caixa-consulta {
-      width: 75vw;
+      border-radius: 5px;
+      height: 15vh;
+      width: 125vw;
+      max-width: 750px;
+      min-width: 750px;
+    }
+
+    .caixa-consulta input {
+      font-size: 32px;
+      width: 100vw;
+    }
+
+    #img-consulta {
+      height: 13vh;
+      width: 15vw;
+
+    }
+
+    #img-consulta img {
+      height: 8vh;
+      width: 8vw;
     }
   }
 

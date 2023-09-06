@@ -9,44 +9,57 @@ export default function Modal({isOpen, setOpen}) {
                     <div id='men'>
                         <div id='logo'>
                         <div><img src='../assets/image/logo.png'/></div>
+
                         <p>
                         Elite <span>Wheelz</span>
                         </p>
                         </div>
 
-                        <div id='menu-nav'>
-                        <div className='menu-div'>
-                            <div><img src='../assets/image/home.svg'/></div>
-                            <div className='nav-nome'>
-                            <p>Home</p>
-                            </div>
-                        </div>
-
-                        <Link to='/'>
-                            <div className='menu-div'>
-                                <div><img src='../assets/image/cliente.png'/></div>
-                                <div className='nav-nome'>
-                                <p>Cliente</p>
+                        <div id='men-nav'>
+                            <div className='men-div'>
+                                <div>
+                                    <img src='../assets/image/home.svg'/>
                                 </div>
-                            </div> 
-                        </Link>
-
-                        <Link to='/Veiculo'>
-                            <div className='menu-div'>
-                                <div><img src='../assets/image/veiculo.png'/> </div>
+                                
                                 <div className='nav-nome'>
-                                <p>Veículos</p>
+                                <p>Home</p>
                                 </div>
                             </div>
-                        </Link>
-                        
 
-                        <div className='menu-div'>
-                            <div><img src='../assets/image/locacao.png'/> </div>
-                            <div className='nav-nome'>
-                            <p>Locação</p>
+                            <Link to='/'>
+                                <div className='men-div'>
+                                    <div>
+                                        <img src='../assets/image/cliente.png'/>
+                                    </div>
+
+                                    <div className='nav-nome'>
+                                    <p>Cliente</p>
+                                    </div>
+                                </div> 
+                            </Link>
+
+                            <Link to='/Veiculo'>
+                                <div className='men-div'>
+                                    <div>
+                                        <img src='../assets/image/veiculo.png'/> 
+                                    </div>
+
+                                    <div className='nav-nome'>
+                                    <p>Veículos</p>
+                                    </div>
+                                </div>
+                            </Link>
+                            
+
+                            <div className='men-div'>
+                                <div>
+                                    <img src='../assets/image/locacao.png'/> 
+                                </div>
+
+                                <div className='nav-nome'>
+                                <p>Locação</p>
+                                </div>
                             </div>
-                        </div>
                         </div>
                     </div>
                     <form method='dialog'>

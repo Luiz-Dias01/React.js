@@ -53,6 +53,10 @@ export default function Cliente() {
       <div id='container'>
         <header>
           <p>Olá, Que bom que você voltou!</p>
+          <div id='p2'>
+          <p>Elite<span>Wheelz</span></p>
+          </div>
+
           <div>
             <button onClick={() => setOpen(true)}>
               <picture>
