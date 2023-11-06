@@ -1,5 +1,7 @@
 import './index.scss';
 
+import Carrossel from '../../components/carousel/carousel.js';
+
 export default function Home() {
   return (
     <div id="page-home">
@@ -35,19 +37,7 @@ export default function Home() {
       </header>
 
       <main>
-        <section id='slide'>
-          <input name='slide' type='radio'/>
-          <input name='slide' type='radio'/>
-          <input name='slide' type='radio'/>
-          <input name='slide' type='radio'/>
-
-          <div id='slide-movimentacao'>
-            <div className='conteudo-slide'>1</div>
-            <div className='conteudo-slide'>2</div>
-            <div className='conteudo-slide'>3</div>
-            <div className='conteudo-slide'>4</div>
-          </div>
-        </section>
+        <Carrossel/>
       </main>
     </div>
   );

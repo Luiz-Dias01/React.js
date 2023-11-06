@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
 import Home from './pages/landingPage';
+import Carrossel from './components/carousel/carousel';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
@@ -11,6 +12,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/> }/>
+        <Route path='/carrossel' element={<Carrossel/> }/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

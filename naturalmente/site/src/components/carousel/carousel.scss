@@ -1,0 +1,18 @@
+#carousel-components {
+    background-color: #6B8E4E;
+    display: block;
+    width: 100%;
+    padding: 30px 0px 50px 0px;
+    
+
+    .carousel-elements {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-elements img {
+        margin: 10px;
+        height: 30vh;
+    }
+}
