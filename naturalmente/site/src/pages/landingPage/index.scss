@@ -11,19 +11,12 @@
     header {
         background-image: url('../../../public/assets/image/imagem_fundo_header.png');
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
-        width: 100%;
-        height: 45vh;
-    }
-
-    #enunciado-mais-vendidos {
-        font-family: 'sync-regular';
-        font-weight: 400;
-        text-align: center;
+        margin-bottom: 10px;
         width: 100%;
     }
 
@@ -98,6 +91,14 @@
         height: 15vh;
     }
 
+    #icon-favoritos {
+        text-align: center;
+        margin-top: 5px;
+        width: 8vw;
+        padding-bottom: 17px;
+
+    }
+
     #conta-usuario p{
         text-align: center;
         margin-top: 5px;
@@ -114,7 +115,124 @@
     }
 
     /////////
-    /// 
 
-    
+    #apresentacao {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    #imagem-oleo {
+        margin-right: 7.5px;
+    }
+
+    #txt-oleo {
+        margin-left: 7.5px;
+    }
+
+    #txt-oleo a {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    #vantagens-de-uso {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bloco-informativo {
+        margin: 10px;
+    }
+
+    #carrossel h2{
+        text-indent: 10px;
+        margin: 10px;
+    }
+
+    #descricao div{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .circulo-selecao {
+        border-radius: 100%;
+        border: 2px solid #0F2506;
+        margin-bottom: 20px;
+        padding: 10px;
+        height: 21vh;
+        width: 14vw;
+    }
+
+    .circulo-selecao1 {
+        border-radius: 100%;
+        border: 2px solid #0F2506;
+        margin-bottom: 20px;
+        padding: 10px;
+        height: 21vh;
+        width: 14vw;
+    }
+
+    .circulo-selecao > div {
+        color: #90A955;
+        font-size: 1.5em;
+        border-radius: 100%;
+        padding: 10px;
+        height: 18vh;
+        width: 15vw;
+    }
+
+    .circulo-selecao1 > div {
+        background-color: #0F2506;
+        color: #90A955;
+        font-size: 1.5em;
+        border-radius: 100%;
+        padding: 10px;
+        height: 18vh;
+        width: 15vw;
+    }
+
+    #txt-descricao {
+        margin-top: 10px;
+        width: 100%vw;
+    }
+
+    #txt-alternativo {
+        font-size: 1.7em;
+        text-align: start;
+        align-content: flex-start;
+        padding: 5px;
+        margin-right: 20px;
+        width: 77vw;
+    }
+
+    ////////
+
+    footer {
+        background-color: #282F25;
+        color: white;
+        display: flex;
+    }
+
+
+
+    #logo-rodape img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #txt-rodape {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        width: 100%;
+    }
+
+
+
+
 }

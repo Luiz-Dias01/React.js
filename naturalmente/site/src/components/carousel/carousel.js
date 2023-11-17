@@ -35,7 +35,7 @@ export default function Carrossel() {
                             alt="Image Four"
                         />
                     </div>
-                </Carousel.Item>
+                </Carousel.Item> 
 
                 <Carousel.Item>
                     <div className='carousel-elements'>
